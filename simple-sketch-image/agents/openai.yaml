@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simple Sketch Image"
+  short_description: "Generate clean sketch prompts for articles"
+  default_prompt: "Use $simple-sketch-image to turn this article or paragraph into a clean simple-sketch illustration prompt."
