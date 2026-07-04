@@ -17,6 +17,18 @@
 
 ## 安装方式
 
+### 方式一：让 Codex 帮你安装
+
+你可以直接把这个仓库链接发给 Codex，并说明要安装这个 skill：
+
+```text
+请帮我安装这个 Codex skill：https://github.com/atom917/simple-sketch-image
+```
+
+Codex 可以读取仓库内容，把 `simple-sketch-image/` 文件夹复制到本机的 Codex skills 目录，并在安装后帮你检查 `SKILL.md` 是否有效。
+
+### 方式二：手动复制
+
 把 skill 文件夹复制到 Codex skills 目录：
 
 ```powershell
@@ -93,9 +105,28 @@ Use $simple-sketch-image with no character to make a tutorial step image prompt 
 
 ![角色候选图](docs/images/character-candidates.png)
 
-文章正文配图测试：
+封面图示例：基于 Atlassian 的知识管理文章，展示“散乱知识整理后才适合进入 AI 工作流”。
 
-![文章测试图](docs/images/article-test.png)
+![封面图示例：知识管理](docs/images/example-cover-knowledge-management.png)
+
+文章正文配图示例 1：基于 GitHub Copilot prompt engineering 文档，展示“背景、具体请求、示例、输出”的提示词工作流。
+
+![正文配图示例：Copilot 提示词工作流](docs/images/example-body-copilot-prompt.png)
+
+文章正文配图示例 2：基于 Nielsen Norman Group 的 Progressive Disclosure 文章，展示“先显示主要功能，再逐步展开高级功能”。
+
+![正文配图示例：渐进披露](docs/images/example-body-progressive-disclosure.png)
+
+文章正文配图示例 3：基于 OpenAI 的 Harness Engineering 文章，展示“说明、地图、工具、验证、边界、日志和反馈”的 agent 工作流。
+
+![正文配图示例：Harness Engineering](docs/images/example-body-harness-engineering.png)
+
+参考文章：
+
+- [Atlassian：Why now is the knowledge management moment](https://www.atlassian.com/blog/work-management/knowledge-management-moment)
+- [GitHub Docs：Prompt engineering for GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)
+- [Nielsen Norman Group：Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
+- [OpenAI：Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
 
 ## 使用建议
 
