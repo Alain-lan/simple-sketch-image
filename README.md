@@ -22,7 +22,7 @@
 你可以直接把这个仓库链接发给 Codex，并说明要安装这个 skill：
 
 ```text
-请帮我安装这个 Codex skill：https://github.com/atom917/simple-sketch-image
+请帮我安装这个 Codex skill：https://github.com/Alain-lan/simple-sketch-image
 ```
 
 Codex 可以读取仓库内容，把 `simple-sketch-image/` 文件夹复制到本机的 Codex skills 目录，并在安装后帮你检查 `SKILL.md` 是否有效。
